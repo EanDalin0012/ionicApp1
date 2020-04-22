@@ -1,0 +1,15 @@
+<p>
+  home1000 works!
+</p>
+
+<ion-button (click)="onClick()">
+  Testing
+</ion-button>
+
+<ion-input (ionInput) = "ionInput($event)" placeholder="Enter amount" style="background-color: bisque;"></ion-input>
+<br>
+<div class="inp_box amount">
+    <ion-input style="background-color: bisque;" type="text" id="" class="num" placeholder="0" (input)="ionInput($event)" (ionFocus)="onFocus($event)" (ionBlur)="OnBlur($event)" require>
+      <span class="txt">%</span>
+    </ion-input>
+</div>
